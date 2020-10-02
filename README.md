@@ -16,6 +16,7 @@ This project contains these files:
 5.*sql_queries.py* contains all your SQL queries and is imported into the last three files above.
 
 **Schema for the Song Play Analysis**
+
 Using the song and log datasets, I created a star schema optimized for queries on song play analysis. This includes the following tables.
 Fact Table
 1.songplays - records in log data associated with song plays. with following attributes
@@ -31,12 +32,14 @@ time - timestamps of records in songplays broken down into specific units. with 
 start_time, hour, day, week, month, year, weekday
 
 **ETL Pipeline**
+
 The following process is to create an ETL pipeline 
 •read all JSON Files from the directories
 •Create and insert Songs and Artists table from song dataset
 •Create and insert  Users and Time table from log dataset
 
 **Run Pipeline**
+
 The following instructions are to run the pipeline :
 1.Run run_create. ipynb to create tables.
 2.Run etl. ipynb at the end, I did etl.py implementation
