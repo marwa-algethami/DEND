@@ -25,7 +25,9 @@ This project contains these files:
 
 Using the song and log datasets, I created a star schema optimized for queries on song play analysis. 
 This includes the following tables:
+
 **Fact Table**
+
 1.songplays - records in log data associated with song plays. with following attributes
 
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
