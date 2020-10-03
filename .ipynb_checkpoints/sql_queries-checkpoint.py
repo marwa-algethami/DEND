@@ -11,7 +11,7 @@ temp_table_drop = (""" DROP TABLE IF EXISTS temp;""")
 # CREATE TABLES
 #specify data type and constraints 
 songplay_table_create = (""" CREATE TABLE IF NOT EXISTS songplays (
-                                                                    songplay_id bigint PRIMARY KEY  , 
+                                                                    songplay_id serial PRIMARY KEY  , 
                                                                     start_time bigint REFERENCES time(start_time),
                                                                     user_id varchar  REFERENCES users(user_id) ,
                                                                     level varchar , 
