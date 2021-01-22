@@ -2,9 +2,8 @@
 
 **About Project**
 
-This project aims to Analyze a startup called Sparkify they've been collecting on songs and user activity on their new music streaming app.
-My role was creating data modeling with Postgres and build an ETL pipeline using Python.
-First, I choose the Star Schema model because of its simplicity and efficiency for defining fact and dimension tables. I was then building the ETL pipeline to transfer data from JSON directories into these tables in Postgres using Python and SQL.
+This project aims to Analyze a startup called Sparkify. They've been collecting songs and user activity on their new music streaming app. 
+My role was creating data modeling with Postgres and build an ETL pipeline using Python. First, I choose the Star Schema model because of its simplicity and efficiency for defining fact and dimension tables. I made the ETL pipeline transfer data from JSON directories into these tables in Postgres using Python and SQL.
 
 **Project Template**
 
